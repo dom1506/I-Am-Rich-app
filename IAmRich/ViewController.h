@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *ruby;
+@property (weak, nonatomic) IBOutlet UILabel *iamRich;
 
 @end
 
